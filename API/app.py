@@ -16,4 +16,7 @@ def get_superheroes():
     return rows
 
 
-
+@app.get("/cursisPlatzi")
+def get_superheroes():
+    rows = ["Docker", "Bash", "Linus", "Ingles", "Python", "JavaScript"]
+    return rows
