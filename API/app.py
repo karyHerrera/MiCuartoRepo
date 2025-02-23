@@ -20,6 +20,3 @@ def get_superheroes():
 def get_superheroes():
     rows = ["Docker", "Bash", "Linus", "Ingles", "Python", "JavaScript"]
     return rows
-
-
-
